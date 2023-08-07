@@ -105,6 +105,8 @@ let arr = [
   ],
 ];
 
+//slide-bar logic
+
 setInterval(() => {
   if (i == 4) {
     document.getElementById(`d${i}`).style.borderStyle = "hidden";
